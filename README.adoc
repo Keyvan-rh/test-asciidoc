@@ -10,8 +10,8 @@ Dan Allen <thedoc@asciidoctor.org>
               exercises numerous features of AsciiDoc +
               to test Asciidoctor compliance.
 :library: Asciidoctor
-//ifdef::asciidoctor[]
-ifdef::env-github[]
+ifdef::asciidoctor[]
+//ifdef::env-github[]
 :source-highlighter: coderay
 endif::asciidoctor[]
 :idprefix:
@@ -22,6 +22,11 @@ endif::asciidoctor[]
 //:doctype: book
 //:sectids!:
 :plus: &#43;
+
+[red]#Obvious# and [big red yellow-background]*very obvious*.
+[underline]#Underline text#, [overline]#overline text# and
+[blue line-through]*bold blue and line-through*.
+
 
 [role='lead']
 This is a demonstration of {library}. And this is the preamble of this document.
