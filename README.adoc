@@ -10,7 +10,8 @@ Dan Allen <thedoc@asciidoctor.org>
               exercises numerous features of AsciiDoc +
               to test Asciidoctor compliance.
 :library: Asciidoctor
-ifdef::asciidoctor[]
+//ifdef::asciidoctor[]
+ifdef::env-github[]
 :source-highlighter: coderay
 endif::asciidoctor[]
 :idprefix:
