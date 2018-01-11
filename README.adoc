@@ -1,29 +1,8 @@
 Asciidoctor Demo
 ================
-////
-Big ol' comment
 
-sittin' right 'tween this here title 'n header metadata
-////
-Dan Allen <thedoc@asciidoctor.org>
-:description: A demo of Asciidoctor. This document +
-              exercises numerous features of AsciiDoc +
-              to test Asciidoctor compliance.
-:library: Asciidoctor
-//ifdef::asciidoctor[]
-ifdef::env-github[]
-:source-highlighter: coderay
-endif::asciidoctor[]
-:idprefix:
-:stylesheet: asciidoc.css
-:imagesdir: images
-//:backend: docbook45
-//:backend: html5
-//:doctype: book
-//:sectids!:
-:plus: &#43;
 
-[red]#Obvious# and [big red yellow-background]*very obvious*.
+#Obvious# and *very obvious*.
 [underline]#Underline text#, [overline]#overline text# and
 [blue line-through]*bold blue and line-through*.
 
